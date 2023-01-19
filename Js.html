@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+
+		
+		*{
+			margin:0;
+			padding:0;
+			}
+		body{
+				background-image:url("Picture.jpg");
+				background-position: left;
+				background-size: cover;
+				font-family: sans-serif;
+				margin-top: 40px;
+				}
+		.regform{
+					width: 800px;
+					background-color: rgb(0,0,0,0.6);
+					margin:auto;
+					color: #FFFFFF;
+					padding: 10px 0px 10px 0px;
+					text-align: center;
+					border-radius: 15px 15px 0px 0px;
+					}
+	.main{
+		  background-color: rgb(0, 0, 0, 0.5);
+		  width: 800px;
+		  margin: auto;
+		  }
+	form{
+		 padding: 10px;
+		 }
+.h5{
+	color: whitesmoke;
+}
+#name{
+		width: 100%;
+		height: 100px;
+		}
+.name{
+		margin-left: 25px;
+		margin-top: 30px;
+		width: 125px;
+		color: white;
+		font-size: 18px;
+		font-weight: 700;
+		}
+.firstname{
+			position: relative;
+			left: 200px;
+			top: -37px;
+			line-height: 40px;
+			border-radius: 6px;
+			padding: 0 22px;
+			font-size: 16px;
+			}
+.lastname{
+		position: relative;
+		left: 417px;
+		top: -80px;
+		line-height: 40px;
+		border-radius: 6px;
+		padding: 0 22px;
+		font-size: 16px;
+		color: #555;
+		}
+.firstlabel{
+			position: relative;
+			color: #E5E5E5;
+			text-transform: capitalize;
+			font-size: 14px;
+			left: 203px;
+			top: -45px;
+
+			}
+.lastlabel{
+			position: relative;
+			color: #E5E5E5;
+			text-transform: capitalize;
+			font-size: 14px;
+			left: 203px;
+			top: -45px;
+			}
+.email{
+		position: relative;
+		left: 200px;
+		top: -37px;
+		line-height: 40px;
+		width: 480px;
+		border-radius: 6px;
+		padding: 0 22px;
+		font-size: 16px;
+		color: #555;
+		}
+.district{
+		position: relative;
+		left: 200px;
+		top: -37px;
+		line-height: 40px;
+		width: 480px;
+		border-radius: 6px;
+		padding: 0 22px;
+		font-size: 16px;
+		color: #555;
+		}
+.phone{
+		position: relative;
+		left: 200px;
+		top: -30px;
+		line-height: 40px;
+		width: 480px;
+		border-radius: 6px;
+		padding: 0 22px;
+		font-size: 16px;
+		color: #555;
+}
+
+.option{
+		position: relative;
+		left: 200px;
+		top: -30px;
+		line-height: 40px;
+		width: 532px;
+		height: 40px;
+		border-radius: 6px;
+		padding: 0 22px;
+		font-size: 16px;
+		color: #555;
+		outline: none;
+		overflow: hidden;
+		}
+		.option opacity{
+						font-size:20px;
+		}
+	button{
+			background-color:#3BAF9F;
+			display: block;
+			margin:20px 0px 0px 20px;
+			text-align: center;
+			border-radius: 12px;
+			border: 2px solid #366473;
+			padding: 14px 110px;
+			outline: none;
+			color: white;
+			cursor: pointer;
+			transition: 0.25px;
+			}
+	button:hover{
+					background-color: #5390F5;
+	}
+
+
+	</style>
+
+</head>
+<body>
+	<div class="regform"><h1> Book Your Show </h1></div>
+	<div class="main">
+		<form>
+		<div id="name">
+			<h2 class="name">Name</h2>
+			<input class="firstname" type="rext" name="first_name"><br>
+			<label class="firstlabel">first name</label>
+			<input class="lastname" type="text" name="last_name">
+			<label class="lastlabel">last name</label>
+		</div>
+
+		<h2 class="name">Email</h2>
+		<input class="email" type="text" name="email">
+
+		<h2 class="name">District</h2>
+		<input class="district" type="text" name="district">
+
+		<h2 class="name">Phone</h2>
+		<input class="phone" type="text" name="phone">
+
+		<h2 class="name">Show Period</h2>
+		<select class="option" name="subject">
+		<option disabled="disabled" selected="selected">--Choose Option</option>
+		<option>Darshan Fans</option>
+		<option>VIP Ticket</option>
+		<option>Gold Ticket</option>
+		<option>Silver Ticket</option>
+		</select>
+
+		<button type="submit">Book Show</button>
+
+		<morquee><h5>&copy: ShrutiRamteke |Department: Electronics & Telecommunication Engineering| USN: ET20097 | S.B. Jain, Nagpur</h5></morquee>
+		</form>
+	</div>
+</body>
+</html>
